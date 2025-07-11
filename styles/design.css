@@ -4,7 +4,7 @@
   font-style: normal;
   margin: 0px;
   padding: 0px;
-  color: #F5F8FF;
+  color: whitesmoke;
 
 }  
 
@@ -120,7 +120,7 @@ main {
 
 
  .secondery-bg {
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     border-radius: 25px;
     margin-top: 50px;
  }
@@ -149,4 +149,40 @@ main {
  .item-details {
     color: #252432;
     font-size: 15px;
+ }
+
+ /* Ready to focas better section */
+
+ .item1 {
+    background-color: whitesmoke;
+    margin: 50px 0px;
+    text-align: center;
+    padding: 20px;
+ }
+
+ .item1-heading {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0px;
+    margin-top: 20px;
+
+ }
+
+ .item1-description{
+    color: #252432;
+ }
+
+ .img-3 {
+    height: 350px;
+    width: 700px;
+    border-radius: 48px;
+    margin: 20px 0px 40px 20px;
+ }
+
+ .btn-primary-btn4 {
+    height: 48px;
+    width: 195px;
+    border-radius: 10px;
+    font-size: 16px;
  }
