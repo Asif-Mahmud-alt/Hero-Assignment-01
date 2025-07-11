@@ -4,7 +4,7 @@
   font-style: normal;
   margin: 0px;
   padding: 0px;
-  /* color: #F5F8FF; */
+  color: #F5F8FF;
 
 }  
 
@@ -107,6 +107,7 @@ main {
 .section-1-heading {
     font-size: 42px;
     font-weight: bold;
+    color: #252432;
 }
 
 .section-1-detail{
@@ -143,4 +144,9 @@ main {
     font-weight: bold;
     margin: 0;
     padding: 0;
+ }
+
+ .item-details {
+    color: #252432;
+    font-size: 15px;
  }
