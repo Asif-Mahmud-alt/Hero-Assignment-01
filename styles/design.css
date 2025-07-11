@@ -1,3 +1,10 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
 .Raleway {
      font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -5,6 +12,7 @@
   margin: 0px;
   padding: 0px;
   color: whitesmoke;
+  height: 100%;
 
 }  
 
@@ -90,6 +98,7 @@ main {
     /* text-align: center; */
     margin-right: 50px;
     margin-top: 50px;
+    gap: 150px;
 }
 
 .action-1-img {
@@ -101,6 +110,7 @@ main {
 .section-1-content {
     width: 500px;
     height: 220px;
+    
     
 }
 
@@ -186,3 +196,199 @@ main {
     border-radius: 10px;
     font-size: 16px;
  }
+
+
+ /* form design */
+ .form-section {
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+ }
+
+ .section-col-1 {
+    font-size:95px ;
+    font-weight: bold ;
+    color: #000000;
+    padding: 200;
+ }
+/* 
+  input[tyep="text"] {
+    height: 64px;
+
+ } */
+
+ /* .section-col-2 l{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+ } */
+
+ /* footer */
+
+
+.last-container {
+    height: 220px;
+
+    /* background-color: aquamarine; */
+    text-align: center;
+    padding: 150px;
+    max-width: 1160px;
+    
+}
+
+.footer-heading {
+    color:#4E47FF ;
+    font-size: 100px;
+    font-weight: bold;
+margin: 0;
+}
+
+.footer-description {
+    color: #8987A1;
+    width: 530px;
+    padding-left: 250px;
+    text-align: center;
+}
+
+
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    /* margin: 0px 20px 0px 20px; */
+    align-items: center;
+    align-items: center;
+   
+}
+ul li {
+    /* margin: 0px 0px 0px 50px; */
+    text-align: center;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    margin-left: 300px;
+    gap: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+/*
+
+.footer-heading {
+    font-size: 100px;
+    color: #4E47FF;
+    text-align: center;
+
+ }
+
+ .footer-description {
+    color: #8987A1;
+    text-align: center;
+    height: 50px;
+    width: 500px;
+
+ }
+
+
+ .footer {
+    text-align: center;
+ }
+ ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-around;
+
+
+    
+ } */
+
+
+ /* review section*/
+
+ .user-openion {
+        display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    gap: 20px;
+ }
+.review-description{
+
+    background-color: #f7f7f7;
+    height: 220px;
+    width: 360px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+
+ .review-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+ }
+
+ h4 {
+    color: #000000;
+    font-weight: 600;
+ }
+
+ .user-comment {
+    color: #000000;
+    height: 35px;
+    width: 250px;
+    margin: 0px;
+ }
+ .name {
+    padding: 0px;
+    margin: 0px;
+ }
+
+ .rewiewer {
+   margin: 0;
+   margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+   border-radius : 8px;
+ }
+.rewiewer-img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+
+.reviewer-detail{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    gap: 5px;
+}
+.name {
+    color: #8987A1;
+    font-weight: 600;
+}
+
+.date{
+    color: #bbb9d3;
+}
+
+
+.footer {
+    background-color: #c8c7cd;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
