@@ -122,24 +122,3 @@ main {
     border-radius: 25px;
     margin-top: 50px;
  }
-
- .section-2-heading {
-    color: #252432;
-    font-size: 35px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 50px;
- }
-
- .section-items {
-    display: flex;
-    justify-content: space-evenly;
- }
-
- .item-heading {
-    font-size: 80px;
-    color: #4E47FF;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
- }
